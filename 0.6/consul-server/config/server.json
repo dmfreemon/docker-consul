@@ -1,6 +1,7 @@
 {
 	"ui": true,
 	"dns_config": {
-		"allow_stale": false
+		"allow_stale": true,
+		"max_stale": "20s"
 	}
 }
